@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="md.sjd.bottommenu.MainActivity">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/action_sub_group"
+            android:icon="@drawable/ic_menu_people"
+            android:title="Create Sub Groop"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_add_event"
+            android:icon="@drawable/ic_star"
+            android:title="Add Event"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_edit"
+            android:icon="@drawable/ic_edit"
+            android:title="Edit Groop"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_push_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="Push Your Message"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_view_users"
+            android:icon="@drawable/ic_menu_people"
+            android:title="View Users"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_mute"
+            android:icon="@drawable/ic_notifications_off"
+            android:title="Stop Push Notifications"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_invite"
+            android:icon="@drawable/ic_share"
+            android:title="Invite"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_leave"
+            android:icon="@drawable/ic_exit"
+            android:title="Leave Groop"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_delete"
+            android:icon="@drawable/ic_delete_red"
+            android:title="Delete Groop"
+            app:showAsAction="never" />
+    </group>
+</menu>
